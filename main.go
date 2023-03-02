@@ -11,7 +11,7 @@ func main() {
 		fmt.Println(err)
 	}
 	fmt.Println(files)
-	for i := 0; i < 2; i++ {
+	for i := 0; i < 4; i++ {
 		fmt.Println(files[i].Name())
 	}
 }
